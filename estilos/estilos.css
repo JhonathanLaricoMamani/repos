@@ -1,0 +1,97 @@
+.monolito {
+    width: 120px; 
+    height: 300px; 
+    position: relative;
+    background-color: #E5B89C;
+    margin: 60px auto; 
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.monolito::before {
+    content: '';
+    position: absolute;
+    top: -36px; 
+    width: 100%;
+    height: 36px; 
+    background-color: #E5B89C;
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.cara, .cuerpo, .piernas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cara {
+    top: 5%;
+    width: 72%; 
+    height: 56px; 
+    background-color: #E5B89C;
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.ojos, .boca {
+    position: absolute;
+    border: #E5B89C;
+    background-color: #3B2315;
+
+}
+.ojos {
+    top: 25%;
+    width: 12px; 
+    height: 12px; 
+}
+.ojos.izquierda {
+    left: 20%;
+}
+.ojos.derecha {
+    right: 20%;
+}
+.boca {
+    bottom: 15%;
+    left: 40%;
+    width: 24%; 
+    height: 12px;
+}
+.cuerpo {
+    top: 30%;
+    width: 84%;
+    height: 96px; 
+    background-color: #E5B89C;
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.brazos {
+    position: absolute;
+    width: 36%; 
+    height: 72%; 
+    top: 20%;
+    background-color: #E5B89C;
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.brazos.izquierda {
+    left: -42%; 
+}
+.brazos.derecha {
+    right: -42%; 
+}
+.piernas {
+    bottom: 0;
+    width: 72%; 
+    height: 60px;
+    background-color: #E5B89C;
+    border: 6px solid #3B2315; 
+    box-sizing: border-box;
+}
+.pies {
+    position: absolute;
+    bottom: -24px; 
+    width: 96%;
+    height: 24px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #E5B89C;
+    border: 6px solid #3B2315;
+    box-sizing: border-box;
+}
